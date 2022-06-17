@@ -1,0 +1,20 @@
+﻿using AcademyF_ATCIT.WeekTest.Core.Entities.Common;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AcademyF_ATCIT.WeekTest.Core.Entities
+{
+    public class GiftCard : IEntity
+    {
+        public int? Id { get; set; }
+        public string Mittente { get; set; }
+        public string Destinatario { get; set; }
+        public string Messaggio { get; set; }
+        public double Importo { get; set; }
+        public DateTime DataDiScadenza { get; set; }
+
+    }
+}
